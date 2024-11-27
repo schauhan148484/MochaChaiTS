@@ -1,0 +1,19 @@
+{
+  "name": "mochachai",
+  "version": "1.0.0",
+  "description": "fortest",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**.spec.ts"
+  },
+  "author": "shubh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.10",
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
